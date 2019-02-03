@@ -95,5 +95,3 @@ html:not(#foo) > scrollbar:not(#foo):not(:hover)
 }
 
 }
-
-
