@@ -25,6 +25,12 @@
       margin-right: 2px !important;
       margin-top: 2px !important;
    }
+  textarea {
+      resize: none !important;
+   }
+   textarea:hover {
+      resize: both !important;
+   }
 
 /* body background and text color */
 html, body { background:none !important; background-color:rgb( 0, 0, 0 ) !important; color:rgb(195, 195, 195) !important; }
