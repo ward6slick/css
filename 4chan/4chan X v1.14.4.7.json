@@ -1,6 +1,6 @@
 {
   "version": "1.14.4.7",
-  "date": 1549227228184,
+  "date": 1552000874348,
   "Conf": {
     "Redirect to HTTPS": true,
     "JSON Index": false,
@@ -205,7 +205,7 @@
     "pastedname": "file",
     "fileInfo": "%l %d (%p%s, %r%g)",
     "favicon": "ferongr",
-    "usercss": "/* Board title rice */\ndiv.boardTitle {\n  font-weight: 400 !important;\n}\n:root.yotsuba div.boardTitle {\n  font-family: sans-serif !important;\n  text-shadow: 1px 1px 1px rgba(100,0,0,0.6);\n}\n:root.yotsuba-b div.boardTitle {\n  font-family: sans-serif !important;\n  text-shadow: 1px 1px 1px rgba(105,10,15,0.6);\n}\n:root.photon div.boardTitle {\n  font-family: sans-serif !important;\n  text-shadow: 1px 1px 1px rgba(0,74,153,0.6);\n}\n:root.tomorrow div.boardTitle {\n  font-family: sans-serif !important;\n  text-shadow: 1px 1px 1px rgba(167,170,168,0.6);\n}\n\n.watch-thread-link { \n    background-image: url('data:image/gif;base64,R0lGODlhEAAQAJEAAAAAAP///9vb2////yH5BAEAAAMALAAAAAAQABAAAAIvnI+pq+D9DBAUoFkPFnbs7lFZKIJOJJ3MyraoB14jFpOcVMpzrnF3OKlZYsMWowAAOw==') !important;\n    opacity: 1 !important; vertical-align: -5px;\n}\n.watch-thread-link.watched { \n    background-image: url('//static.4chan.org/image/favicon-ws.ico') !important; vertical-align: -5px;\n}\n\nhr:not(#unread-line) { opacity:0 !important; }\n  #unread-line\n  {\n    background-image: linear-gradient(rgba(195, 195, 195, 0), rgb(195, 195, 195), rgba(195, 195, 195, 0));\n    border: 0!important;\n    height: 1px!important;\n    margin-top: 1px!important;\n  }\n\n#qr select[data-name=\"thread\"] {\n    font-family: sans-serif;\n    font-size: 10px;\n}\n\n/*.menu-button {\n    float: right;\n    right: 2px;\n    top: 2px;\n  }*/\n\n.yotsuba:root #menu {\n    color: #c3c3c3\n}\n.yotsuba:root #header-bar, .yotsuba:root #notifications {\n    color: #c3c3c3\n}\n\n.yotsuba-b:root #menu {\n    color: #c3c3c3\n}\n.yotsuba-b:root #header-bar, .yotsuba-b:root #notifications {\n    color: #c3c3c3\n}\n\n.desktop.navLinksBot.navLinks { \n    margin-top: 10px; !important; margin-bottom: -25px; !important;\n}\n\n#updater {\n    margin-left: 6px; !important; margin-bottom: 4px; !important; color:rgb(195, 195, 195) !important;\n}\n\n#thread-stats {\n    margin-right: 6px; !important; margin-bottom: 4px; !important; color:rgb(195, 195, 195) !important;\n}\n\n#qr .captcha-counter > a {\n      color: rgb( 85, 85, 85 ) !important;\n   }",
+    "usercss": "/* Board title rice */\ndiv.boardTitle {\n  font-weight: 400 !important;\n}\n:root.yotsuba div.boardTitle {\n  font-family: sans-serif !important;\n  text-shadow: 1px 1px 1px rgba(100,0,0,0.6);\n}\n:root.yotsuba-b div.boardTitle {\n  font-family: sans-serif !important;\n  text-shadow: 1px 1px 1px rgba(105,10,15,0.6);\n}\n:root.photon div.boardTitle {\n  font-family: sans-serif !important;\n  text-shadow: 1px 1px 1px rgba(0,74,153,0.6);\n}\n:root.tomorrow div.boardTitle {\n  font-family: sans-serif !important;\n  text-shadow: 1px 1px 1px rgba(167,170,168,0.6);\n}\n\n.watch-thread-link { \n    background-image: url('data:image/gif;base64,R0lGODlhEAAQAJEAAAAAAP///9vb2////yH5BAEAAAMALAAAAAAQABAAAAIvnI+pq+D9DBAUoFkPFnbs7lFZKIJOJJ3MyraoB14jFpOcVMpzrnF3OKlZYsMWowAAOw==') !important;\n    opacity: 1 !important; vertical-align: -5px;\n}\n.watch-thread-link.watched { \n    background-image: url('//static.4chan.org/image/favicon-ws.ico') !important; vertical-align: -5px;\n}\n\n   textarea {\n      resize: none !important;\n   }\n   textarea:hover {\n      resize: both !important;\n   }\n\nhr:not(#unread-line) { opacity:0 !important; }\n  #unread-line\n  {\n    background-image: linear-gradient(rgba(195, 195, 195, 0), rgb(195, 195, 195), rgba(195, 195, 195, 0));\n    border: 0!important;\n    height: 1px!important;\n    margin-top: 1px!important;\n  }\n\n#qr select[data-name=\"thread\"] {\n    font-family: sans-serif;\n    font-size: 10px;\n}\n\n/*.menu-button {\n    float: right;\n    right: 2px;\n    top: 2px;\n  }*/\n\n.yotsuba:root #menu {\n    color: #c3c3c3\n}\n.yotsuba:root #header-bar, .yotsuba:root #notifications {\n    color: #c3c3c3\n}\n\n.yotsuba-b:root #menu {\n    color: #c3c3c3\n}\n.yotsuba-b:root #header-bar, .yotsuba-b:root #notifications {\n    color: #c3c3c3\n}\n\n.desktop.navLinksBot.navLinks { \n    margin-top: 10px; !important; margin-bottom: -25px; !important;\n}\n\n#updater {\n    margin-left: 6px; !important; margin-bottom: 4px; !important; color:rgb(195, 195, 195) !important;\n}\n\n.dialog:not(#qr):not(#thread-watcher):not(#header-bar) {\n    margin-right: 6px; !important; margin-bottom: 4px; !important; color:rgb(195, 195, 195) !important;\n    box-shadow: 0 0px 0px rgba(0, 0, 0, .15); !important;\n}\n\n#qr .captcha-counter > a {\n      color: rgb( 85, 85, 85 ) !important;\n   }",
     "Toggle board list": "Ctrl+b",
     "Toggle header": "Shift+h",
     "Open empty QR": "q",
@@ -273,495 +273,200 @@
     "Max Replies": 1000,
     "Autohiding Scrollbar": true,
     "embedding.position": "top: 50px; right: 0px;",
-    "thread-stats.position": "bottom: 0px; right: 0px;",
+    "thread-stats.position": "right: 0px; bottom: 0px;",
     "updater.position": "left: 0px; bottom: 0px;",
-    "thread-watcher.position": "top: 5.22255%; left: 0.804769%;",
-    "qr.position": "top: 2.54717%; left: 63.5189%;",
+    "thread-watcher.position": "top: 5.07741%; left: 1.31422%;",
+    "qr.position": "top: 1.96178%; left: 64.0647%;",
     "siteSoftware": "4chan.org yotsuba\n4channel.org yotsuba\n4cdn.org yotsuba",
     "hiddenThreads": {
       "4chan.org": {
         "boards": {
           "wg": {
             "6872254": true,
-            "7330434": true,
-            "7348718": true
+            "7375179": true
           },
-          "wsr": {
-            "621364": true
+          "g": {
+            "69920336": true,
+            "69927549": true,
+            "69934449": true,
+            "69948607": true,
+            "70051462": {
+              "makeStub": true
+            }
           }
         },
-        "lastChecked": 1549223620307
+        "lastChecked": 1551993901440
       },
-      "version": 7
+      "version": 10
     },
     "hiddenPosts": {
       "4chan.org": {
         "boards": {},
-        "lastChecked": 1547418601670
-      }
+        "lastChecked": 1549399802743
+      },
+      "version": 6
     },
     "lastReadPosts": {
       "4chan.org": {
         "boards": {
           "wg": {
-            "7328572": 7346927,
-            "7337548": 7357584,
-            "7338477": 7344235,
-            "7341034": 7357588,
-            "7345722": 7347608,
-            "7346091": 7346136,
-            "7348761": 7351824,
-            "7351828": 7356852
+            "7323350": 7373064,
+            "7356629": 7362362,
+            "7360763": 7366383,
+            "7361040": 7376844,
+            "7375836": 7375836
           },
           "g": {
             "51971506": 67501950,
-            "69460881": 69468150,
-            "69464287": 69464637,
-            "69466561": 69484193,
-            "69474483": 69488874,
-            "69476317": 69491062,
-            "69479735": 69480470,
-            "69480188": 69484035,
-            "69481548": 69489145,
-            "69482098": 69486419,
-            "69483847": 69489128,
-            "69483858": 69489094,
-            "69485357": 69489175,
-            "69485702": 69488917,
-            "69486782": 69487884,
-            "69487910": 69489112,
-            "69487989": 69488718,
-            "69488167": 69488665,
-            "69488859": 69489082,
-            "69490483": 69508304,
-            "69491040": 69512634,
-            "69500297": 69512168,
-            "69506048": 69512893,
-            "69507709": 69512909,
-            "69509767": 69512943,
-            "69510931": 69511524,
-            "69511365": 69530400,
-            "69513021": 69513106,
-            "69516582": 69525272,
-            "69519591": 69536090,
-            "69519742": 69525873,
-            "69521627": 69525772,
-            "69522983": 69525262,
-            "69524734": 69526165,
-            "69525980": 69526642,
-            "69526112": 69526621,
-            "69526708": 69532184,
-            "69529075": 69532654,
-            "69530969": 69539225,
-            "69532439": 69538932,
-            "69533642": 69541261,
-            "69535703": 69538628,
-            "69536187": 69538353,
-            "69537038": 69537709,
-            "69537370": 69537691,
-            "69537512": 69541168,
-            "69538411": 69538606,
-            "69538425": 69563320,
-            "69540830": 69541895,
-            "69541309": 69546671,
-            "69542889": 69546747,
-            "69546219": 69547285,
-            "69546689": 69550416,
-            "69548997": 69549564,
-            "69551455": 69554892,
-            "69552782": 69565813,
-            "69553374": 69562885,
-            "69554906": 69556423,
-            "69555298": 69556740,
-            "69556212": 69556807,
-            "69556491": 69556641,
-            "69557205": 69557205,
-            "69557808": 69565976,
-            "69558298": 69566594,
-            "69558654": 69567554,
-            "69560368": 69560937,
-            "69560484": 69564308,
-            "69561474": 69565854,
-            "69562345": 69562624,
-            "69563605": 69566232,
-            "69564221": 69580010,
-            "69564947": 69592631,
-            "69566584": 69569212,
-            "69567412": 69568991,
-            "69568327": 69587206,
-            "69569106": 69569171,
-            "69571336": 69574500,
-            "69574777": 69579287,
-            "69575218": 69578217,
-            "69576308": 69579234,
-            "69576338": 69577904,
-            "69577822": 69579124,
-            "69578038": 69579661,
-            "69578375": 69578609,
-            "69578671": 69584039,
-            "69578936": 69579459,
-            "69579979": 69585483,
-            "69579995": 69579995,
-            "69580609": 69592066,
-            "69583222": 69583437,
-            "69583406": 69583432,
-            "69584028": 69584043,
-            "69584389": 69584628,
-            "69585023": 69591929,
-            "69585071": 69585080,
-            "69586433": 69617133,
-            "69587356": 69590288,
-            "69589099": 69589308,
-            "69590036": 69595273,
-            "69591415": 69595387,
-            "69591870": 69598880,
-            "69593598": 69593751,
-            "69594016": 69594846,
-            "69595370": 69595428,
-            "69598496": 69600504,
-            "69600414": 69608430,
-            "69600680": 69600719,
-            "69604695": 69610623,
-            "69605081": 69610617,
-            "69607990": 69610600,
-            "69608424": 69610626,
-            "69617962": 69646564,
-            "69618474": 69625507,
-            "69620826": 69628899,
-            "69622708": 69637350,
-            "69623408": 69633893,
-            "69625437": 69625788,
-            "69627328": 69627817,
-            "69627653": 69627811,
-            "69628061": 69628061,
-            "69628925": 69628984,
-            "69629402": 69632575,
-            "69631626": 69633038,
-            "69632290": 69634144,
-            "69633003": 69650605,
-            "69633269": 69638727,
-            "69633786": 69634052,
-            "69633860": 69650562,
-            "69635503": 69636137,
-            "69635780": 69637232,
-            "69637091": 69638026,
-            "69637317": 69637534,
-            "69637674": 69637804,
-            "69638623": 69650718,
-            "69641290": 69650170,
-            "69643528": 69644305,
-            "69644847": 69650583,
-            "69645063": 69650491,
-            "69645508": 69651245,
-            "69646989": 69650594,
-            "69647871": 69650587,
-            "69648696": 69650589,
-            "69650409": 69650646,
-            "69650602": 69650873
+            "69898221": 69925079,
+            "69898329": 69898346,
+            "69904722": 69927249,
+            "69913703": 69931654,
+            "69914494": 69927600,
+            "69918146": 69935242,
+            "69920214": 69922137,
+            "69922188": 69922802,
+            "69922685": 69930507,
+            "69923005": 69927838,
+            "69923736": 69931640,
+            "69925159": 69925189,
+            "69925602": 69930068,
+            "69925644": 69948763,
+            "69926451": 69926713,
+            "69927122": 69933083,
+            "69927535": 69929732,
+            "69928420": 69930656,
+            "69928930": 69931665,
+            "69931672": 69931769,
+            "69937573": 69937737,
+            "69943040": 69954946,
+            "69943158": 69950367,
+            "69945236": 69947987,
+            "69945987": 69946065,
+            "69946714": 69950156,
+            "69947796": 69966182,
+            "69948031": 69962329,
+            "69948039": 69948258,
+            "69949786": 69950083,
+            "69950058": 69950069,
+            "69951009": 69953875,
+            "69951936": 69953727,
+            "69954491": 69954578,
+            "69954569": 69955534,
+            "69954949": 69955532,
+            "69955391": 69955550,
+            "69955460": 69955522,
+            "69958284": 69960410,
+            "69960111": 69962923,
+            "69960721": 69960747,
+            "69961935": 69962245,
+            "69973924": 69987454,
+            "69977849": 69981376,
+            "69979353": 69981822,
+            "69980496": 69980567,
+            "69981897": 69982902,
+            "69982778": 69986579,
+            "69986521": 69986565,
+            "69987912": 69988049,
+            "69988123": 69988186,
+            "70038360": 70042773,
+            "70038724": 70043486,
+            "70039277": 70040118,
+            "70043853": 70043853,
+            "70049371": 70070120,
+            "70053456": 70070580,
+            "70059129": 70076041,
+            "70060990": 70070520,
+            "70061261": 70066926,
+            "70062688": 70071263,
+            "70064669": 70071243,
+            "70064906": 70067203,
+            "70065614": 70066015,
+            "70067183": 70070871,
+            "70067424": 70069426,
+            "70067491": 70069694,
+            "70067656": 70078584,
+            "70067710": 70080232,
+            "70069031": 70070618,
+            "70069449": 70070726,
+            "70069692": 70070581,
+            "70070369": 70071166,
+            "70070954": 70070968,
+            "70071020": 70071218,
+            "70076515": 70081400,
+            "70077973": 70079055,
+            "70078378": 70080063,
+            "70079361": 70079819
           },
           "w": {
-            "2109481": 2119071
+            "2119401": 2123928
           },
           "hr": {
             "3303221": 3307736
           },
+          "mu": {
+            "86327919": 86331184
+          },
           "r": {
-            "16582483": 16582702
-          },
-          "qa": {
-            "2546284": 2553622
-          },
-          "fa": {
-            "14019998": 14032116,
-            "14026895": 14028052,
-            "14028439": 14031769,
-            "14031782": 14031995,
-            "14033857": 14036367
-          },
-          "wsr": {
-            "621868": 622225,
-            "622217": 622217,
-            "622272": 622272,
-            "622315": 622537,
-            "622345": 622368,
-            "622393": 622442,
-            "622572": 622578
+            "16649967": 16649971
           }
         },
-        "lastChecked": 1549223620333
+        "lastChecked": 1551993901466
       },
-      "version": 4721
+      "version": 9664
     },
     "yourPosts": {
       "4chan.org": {
         "boards": {
           "g": {
-            "69476317": {
-              "69480400": true,
-              "69480451": true,
-              "69482785": true,
-              "69484210": true
+            "69904722": {
+              "69907263": true
             },
-            "69491040": {
-              "69491994": true,
-              "69493859": true,
-              "69497139": true,
-              "69512412": true
+            "69947796": {
+              "69955506": true
             },
-            "69511365": {
-              "69513159": true,
-              "69517601": true,
-              "69518047": true,
-              "69518080": true,
-              "69526547": true
+            "70059129": {
+              "70065081": true,
+              "70065131": true
             },
-            "69516582": {
-              "69520914": true
-            },
-            "69530969": {
-              "69532432": true
-            },
-            "69538425": {
-              "69548823": true,
-              "69549470": true,
-              "69551176": true
-            },
-            "69552782": {
-              "69565813": true
-            },
-            "69568327": {
-              "69568903": true
-            },
-            "69586433": {
-              "69595312": true,
-              "69598230": true,
-              "69598272": true,
-              "69599559": true,
-              "69600825": true,
-              "69600858": true
-            },
-            "69617962": {
-              "69628558": true,
-              "69634100": true
-            },
-            "69645508": {
-              "69651063": true,
-              "69651190": true
+            "70076515": {
+              "70080437": true
             }
           },
           "wg": {
-            "7337548": {
-              "7346585": true,
-              "7346599": true,
-              "7348347": true,
-              "7348403": true,
-              "7348447": true,
-              "7348733": true,
-              "7350882": true,
-              "7350895": true,
-              "7351577": true,
-              "7351581": true,
-              "7351773": true,
-              "7351780": true,
-              "7352158": true,
-              "7353052": true,
-              "7353383": true,
-              "7354326": true,
-              "7354328": true,
-              "7354481": true,
-              "7354718": true,
-              "7355757": true,
-              "7355932": true,
-              "7355997": true,
-              "7356033": true,
-              "7356502": true
+            "7356629": {
+              "7359277": true
             },
-            "7341034": {
-              "7347061": true,
-              "7352461": true,
-              "7357496": true
-            },
-            "7348761": {
-              "7350167": true,
-              "7350215": true
-            },
-            "7351828": {
-              "7352636": true
-            }
-          },
-          "r": {
-            "16582483": {
-              "16582500": true,
-              "16582510": true,
-              "16582513": true,
-              "16582514": true,
-              "16582516": true,
-              "16582518": true,
-              "16582520": true,
-              "16582521": true,
-              "16582523": true,
-              "16582524": true,
-              "16582525": true,
-              "16582528": true,
-              "16582529": true,
-              "16582530": true,
-              "16582531": true,
-              "16582534": true,
-              "16582535": true,
-              "16582537": true,
-              "16582538": true,
-              "16582539": true,
-              "16582542": true,
-              "16582543": true,
-              "16582545": true,
-              "16582546": true,
-              "16582548": true,
-              "16582550": true,
-              "16582551": true,
-              "16582553": true,
-              "16582556": true,
-              "16582557": true,
-              "16582560": true,
-              "16582561": true,
-              "16582562": true,
-              "16582564": true,
-              "16582565": true,
-              "16582567": true,
-              "16582571": true,
-              "16582573": true,
-              "16582575": true,
-              "16582578": true,
-              "16582580": true,
-              "16582581": true,
-              "16582582": true,
-              "16582586": true,
-              "16582589": true,
-              "16582590": true,
-              "16582592": true,
-              "16582595": true,
-              "16582596": true,
-              "16582598": true,
-              "16582599": true,
-              "16582601": true,
-              "16582603": true,
-              "16582604": true,
-              "16582606": true,
-              "16582607": true,
-              "16582609": true,
-              "16582610": true,
-              "16582613": true,
-              "16582614": true,
-              "16582616": true,
-              "16582619": true,
-              "16582621": true,
-              "16582624": true,
-              "16582626": true,
-              "16582627": true,
-              "16582628": true,
-              "16582629": true,
-              "16582630": true,
-              "16582632": true,
-              "16582635": true,
-              "16582638": true,
-              "16582640": true,
-              "16582641": true,
-              "16582642": true,
-              "16582644": true,
-              "16582645": true,
-              "16582646": true,
-              "16582647": true,
-              "16582649": true,
-              "16582650": true,
-              "16582651": true,
-              "16582654": true,
-              "16582656": true,
-              "16582657": true,
-              "16582658": true,
-              "16582659": true,
-              "16582661": true,
-              "16582662": true,
-              "16582664": true,
-              "16582665": true,
-              "16582666": true,
-              "16582667": true,
-              "16582668": true,
-              "16582670": true,
-              "16582671": true,
-              "16582673": true,
-              "16582675": true,
-              "16582676": true,
-              "16582678": true,
-              "16582681": true,
-              "16582683": true,
-              "16582686": true,
-              "16582688": true,
-              "16582690": true,
-              "16582693": true,
-              "16582695": true,
-              "16582697": true,
-              "16582700": true,
-              "16582702": true
-            }
-          },
-          "wsr": {
-            "622572": {
-              "622572": true,
-              "622578": true
+            "7361040": {
+              "7362574": true,
+              "7362948": true,
+              "7363497": true,
+              "7364397": true,
+              "7365048": true,
+              "7365274": true,
+              "7375810": true
             }
           },
           "w": {
-            "2109481": {
-              "2113697": true
+            "2119401": {
+              "2120326": true,
+              "2120915": true,
+              "2121197": true,
+              "2121206": true,
+              "2123737": true
             }
           }
         },
-        "lastChecked": 1549223620319
+        "lastChecked": 1551993901452
       },
-      "version": 205
+      "version": 240
     },
     "watchedThreads": {
       "4chan.org": {
-        "boards": {
-          "wg": {
-            "7337548": {
-              "excerpt": "/wg/ - cozy desktop thread",
-              "isDead": false,
-              "unread": 0,
-              "quotingYou": false
-            },
-            "7341034": {
-              "excerpt": "/wg/ - /comfy/ Urban Edition",
-              "isDead": false,
-              "unread": 0,
-              "quotingYou": false
-            }
-          },
-          "w": {
-            "2109481": {
-              "excerpt": "/w/ - Desktop Thread XIV",
-              "isDead": false,
-              "unread": 0,
-              "quotingYou": false
-            }
-          },
-          "g": {
-            "69645508": {
-              "excerpt": "/g/ - desktop thread",
-              "isDead": false,
-              "unread": 0,
-              "quotingYou": false
-            },
-            "69650602": {
-              "excerpt": "/g/ - x220",
-              "isDead": false,
-              "unread": 0,
-              "quotingYou": false
-            }
-          }
-        },
-        "lastChecked": 1549227007306
+        "boards": {},
+        "lastChecked": 1552000701855
       },
-      "version": 4167
+      "version": 6667
     },
     "customTitles": {
       "4chan.org": {
@@ -1289,15 +994,21 @@
         }
       },
       "wg": {
-        "1549173909002": {
-          "threadID": 7341034,
-          "postID": 7357496
+        "1551842440507": {
+          "threadID": 7361040,
+          "postID": 7375810
+        }
+      },
+      "w": {
+        "1551911717744": {
+          "threadID": 2119401,
+          "postID": 2123737
         }
       },
       "g": {
-        "1549226617447": {
-          "threadID": 69645508,
-          "postID": 69651190
+        "1551995856204": {
+          "threadID": 70076515,
+          "postID": 70080437
         }
       }
     },
