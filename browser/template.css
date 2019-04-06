@@ -318,3 +318,31 @@ toolbarbutton#new-tab-button {
     transition-duration: 1ms !important;
 }
 
+#reload-button {
+  display: none !important;
+}
+
+#PanelUI-button {
+    border-inline-start: 0px !important;
+}
+
+
+.tabbrowser-tab .tab-icon-image {
+  display: none !important;
+}
+
+.tabbrowser-tab[pinned]:not([busy="true"]) .tab-icon-image {
+  display: block !important;
+  padding-block-start: -10px !important;
+  margin-left: 2px !important;
+  margin-right: 12px !important;
+}
+
+
+.tab-label-container[textoverflow]:not([pinned]) {
+  mask-image: unset !important;
+}
+
+.tabbrowser-tab :-moz-any(.tab-icon-sound, .tab-icon-overlay[soundplaying]) {
+    display: none !important;
+}
