@@ -130,6 +130,7 @@
     height: 18px !important;
     padding: 0 !important;
     margin: 0 !important;
+    margin-bottom: 1px !important;
     background: #000000 !important;
     -moz-appearance: none !important;
     transition: none !important;
