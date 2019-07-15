@@ -1,8 +1,3 @@
-/*Please note that names of selectors are case sensitive, please note that some context menu items use an underscore instead of a dash.
-
-In order to remove context menu items start the userChrome CSS file with the @namespace line of code and then follow that with the names of the context menu items with commas between each item; this includes context menu selectors that have a comment block between itself and the next context menu selector. At the end of the list of context menu selectors end with this:      {display: none !important;}
-*/
-
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 /*Removes Items from Tab Context Menu*/
 #context_reloadTab,
@@ -86,3 +81,6 @@ menuitem[label="Close Tab"] + menuseparator,
 /*#context-inspect,*/
 #contentAreaContextMenu > menuseparator:nth-child(92) /*This is a Separator*/
 {display: none !important;}
+
+#context-viewimage, #context-copyimage, #context-sep-copyimage, #context-sendimage, #context-setDesktopBackground { 
+    display: none !important 
