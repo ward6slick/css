@@ -106,7 +106,9 @@
     opacity: 0 !important;
 }
 
-
+page-proxy-favicon[pageproxystate="invalid"] {
+    opacity: 0.3 !important;
+}
 
 /* Toolbars */
 
