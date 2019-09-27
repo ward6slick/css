@@ -1,0 +1,147 @@
+/* AGENT_SHEET - TEMPLATE */
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+@namespace html url("http://www.w3.org/1999/xhtml");
+
+/* Place menu button and panel ui button at the left. Can't do this in customize mode. */
+#TabsToolbar > * { -moz-box-ordinal-group: 4 !important; }
+#tabbrowser-tabs { -moz-box-ordinal-group: 2 !important; }
+#new-tab-button { -moz-box-ordinal-group: 3 !important;  }
+#tabGroups-tabview-button { -moz-box-ordinal-group: 5 !important; }
+#ctraddon_appbutton,
+#ctraddon_panelui-button { -moz-box-ordinal-group: 1 !important; }
+
+/* Anonymous elements that do nothing. */
+#navigator-toolbox::after, #tabbrowser-tabs::before, .tabbrowser-tab::after, .tabbrowser-tab::before, .toolbar-primary::after {
+    display: none !important;
+}
+
+#page-proxy-favicon {
+    -moz-image-region: rect(0px, 14px, 14px, 0px) !important;
+    width: 14px !important;
+    height: 14px !important;
+}
+
+.toolbar-primary,
+#TabsToolbar,
+.browserContainer > findbar {
+    height: 18px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: #e3e4e6 !important;
+    -moz-appearance: none !important;
+    transition: none !important;
+}
+
+.tabbrowser-tab[pinned="true"] {
+    background: #c9cacc !important; 
+}
+
+.tabbrowser-tab[selected="true"] {
+    background: #f8f8f9 !important; 
+}
+
+.tab-label {-moz-box-flex: 1 !important; text-align: center !important;}
+
+#tabbrowser-tabs {
+    height: 0 !important;
+    background: transparent !important;
+}
+
+.tabbrowser-tab {
+    background: transparent !important;
+    color: transparent !important;
+    border: none !important;
+    padding: 0 0 0 0 !important;
+}
+
+.tabbrowser-tab > .tab-stack {
+    padding: 0 0 0 16px !important;
+    text-align: center;
+}
+
+
+.tab-background-middle, .tab-background, .tab-content, 
+.tab-text-stack, .arrowscrollbox-scrollbox {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: inherit !important;
+}
+
+.tab-progress {
+    margin: 0 !important;
+}
+
+#PanelUI-menu-button > .toolbarbutton-badge-stack {
+    margin-left: -4px !important;
+    margin-right: 1px !important;
+    padding: 0 !important;
+    border: none !important;
+}
+
+.scrollbutton-up > .toolbarbutton-icon,
+.scrollbutton-down > .toolbarbutton-icon {
+    -moz-appearance: none !important;
+}
+
+/* Elements adjecent to scroll arrows (overflowing to tab). */
+.arrowscrollbox-overflow-end-indicator,
+.arrowscrollbox-overflow-start-indicator {
+    display: none !important;
+}
+
+#reload-button {
+  display: none !important;
+}
+
+#PanelUI-button {
+    border-inline-start: 0px !important;
+}
+
+.tab-label-container[textoverflow]:not([pinned]) {
+  mask-image: unset !important;
+}
+
+.tabbrowser-tab :-moz-any(.tab-icon-sound, .tab-icon-overlay[soundplaying]) {
+    display: none !important;
+}
+
+
+#browser {
+  padding-left: 30px;
+}
+
+#TabsToolbar {
+  width: calc(100vh - 32px) !important;
+  position: fixed !important;
+  height: 30px !important;
+  z-index: 10 !important;
+  top: 28px !important; 
+  left: 30px !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  transform-origin: 0 0;
+  transform: rotate(90deg);
+}
+
+.tab-icon-image {
+  transform: rotate(-90deg);
+  margin-left: -10px !important;
+  margin-bottom: 2px !important;
+}
+
+#nav-bar {
+  margin-left: -3px;
+  margin-bottom: 0px;
+  width: calc(100% - 80px) !important;
+}
+
+.tabbrowser-tab {
+    min-width: 28px !important;
+}
+
+#TabsToolbar toolbarbutton {
+    display: none !important;
+}
+
+#main-window[inDOMFullscreen] #TabsToolbar{ z-index: -1 !important }
+#main-window[inDOMFullscreen] #browser{ padding-left: 0px !important }
