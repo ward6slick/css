@@ -64,10 +64,10 @@
   "Custom Decoration Width": 0,
   "Post Highlight Style": "solid",
   "Font Family": "sans-serif",
-  "Font Size": 13,
-  "Backlink Font Size": 9,
+  "Font Size": 11,
+  "Backlink Font Size": 11,
   "Bitmap Font": true,
   "Version Fix": 1,
-  "Selected Theme": 51,
-  "NSFW Theme": 51
+  "Selected Theme": 3,
+  "NSFW Theme": 3
 }
